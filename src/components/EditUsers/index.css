@@ -1,0 +1,39 @@
+td {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+.input-element {
+  border-radius: 5px;
+  height: 20px;
+  border-width: 0.5px;
+  outline: none;
+}
+
+.button-element {
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto";
+  margin-right: 5px;
+}
+
+.save {
+  background-color: #24d65d;
+}
+
+.cancel {
+  background-color: #d6244b;
+}
+
+@media screen and (max-width: 768px) {
+  .input-element {
+    width: 50px;
+  }
+}

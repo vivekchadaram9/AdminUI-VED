@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.main-cont {
+  background-color: #e3e2de;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .mini-cont {
+    width: fit-content;
+    font-size: smaller;
+  }
+
+  .search-bar {
+    width: 200px;
+    height: 20px;
+  }
+
+  th {
+    width: 50px;
+    padding: 0px;
+  }
+
+  td {
+    padding: 0px;
+  }
+
+  table {
+    table-layout: auto;
+  }
+
+  thead {
+    justify-content: flex-start;
+  }
+
+  tbody {
+    justify-content: flex-start;
+  }
+}
+
+.mini-cont {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-cont {
+  display: flex;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 500px;
+  height: 30px;
+  border: solid 0.5px grey;
+  border-radius: 5px;
+}
+
+table {
+  font-family: "Roboto";
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+th {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+td {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  display: flex;
+  justify-content: space-around;
+}
+
+.failure-image {
+  width: auto;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 20px;
+}
